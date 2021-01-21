@@ -40,14 +40,15 @@ align-content: center;
   table{
       width: 50%
       margin: 30px auto;
+      border-collapse:collapse;
       
   }
   tr{
-      border-bottom: 1px solid black;
+      border-bottom: 2px solid black;
   }
   th{
       font-size: 19px;
-      color: black;
+      color: red;
   }
   th,td{
       border:none;
@@ -59,6 +60,7 @@ align-content: center;
   }
   .task{
       text-align: left;
+      margin:10px;
   }
   .delete{
       text-align: center;

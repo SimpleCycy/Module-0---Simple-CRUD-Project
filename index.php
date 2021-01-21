@@ -15,7 +15,7 @@
             <button type="submit" class ="add_btn"name="_submit"> Add Task</button>
         </form>
 <br><br>
-        <table align = "center">
+        <table align = "left">
             <thead>
                 <tr>
                     <th>N</th>
