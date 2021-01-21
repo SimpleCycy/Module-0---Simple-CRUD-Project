@@ -4,6 +4,7 @@
         color: white;
         text-align: center;
         width: 77%;
+        margin: 30px auto;
         
 }
 .heading:after{
@@ -13,22 +14,19 @@
 
 }
 .task_input {
-    margin: 0;
-    border: none;
-    border-radius: 0;
+align-content: center;
     width: 50%;
     padding: 10px;
-    float: left;
     font-size: 16px;
+    margin: 10px auto;
   }
-  
+
   /* Style in the "Add" button */
   .add_btn {
     padding: 10px;
     width: 25%;
     background: #d9d9d9;
     color: #555;
-    float: left;
     text-align: center;
     font-size: 16px;
     cursor: pointer;
@@ -38,4 +36,37 @@
   
   .add_btn:hover {
     background-color: #bbb;
+  }
+  table{
+      width: 50%
+      margin: 30px auto;
+      
+  }
+  tr{
+      border-bottom: 1px solid black;
+  }
+  th{
+      font-size: 19px;
+      color: black;
+  }
+  th,td{
+      border:none;
+      height: 30px;
+      padding:2px;
+  }
+  tr:hover{
+      background: #e9e9e9;
+  }
+  .task{
+      text-align: left;
+  }
+  .delete{
+      text-align: center;
+  }
+  .delete a{
+      color:white;
+      background: #a52a2a;
+      padding: 1px 6px;
+      border-radius: 3px;
+      text-decoration: none;
   }
