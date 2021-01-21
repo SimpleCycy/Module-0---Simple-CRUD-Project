@@ -1,11 +1,12 @@
 .heading{
-        width: 50%
-        margin: 30px auto;
+        width: 100%
+        margin: 50px auto;
         text-align: center;
-        color: #F57AC0;
-        background: 2px solid #5DB3AF;
-        border: 2px solid #F57AC0;
+        color: #1A181C;
+        background: 5px solid #D8C14B;
+        border: 2px solid #5DB3AF;
         border-radius: 20px;
+        
 }
 /*
 form{

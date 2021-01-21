@@ -8,6 +8,7 @@
     <div class = "heading">
         <h2> ToDo List Application PHP and MySQL </h2>
     </div>
+    <br>
         <form method ="POST" action="index.php">
             <input type ="text" name="task" class="task_input">
             <button type="submit" class ="add_btn"name="_submit"> Add Task</button>
