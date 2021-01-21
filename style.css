@@ -1,39 +1,41 @@
 .heading{
-        width: 100%
-        margin: 50px auto;
+        padding; 30px 40px;
+        background-color: #f44336;
+        color: white;
         text-align: center;
-        color: #1A181C;
-        background: 5px solid #D8C14B;
-        border: 2px solid #5DB3AF;
-        border-radius: 20px;
+        width: 77%;
         
 }
-/*
-form{
-    width: 50%
-    margin: 30px auto;
-    border-radius: 5px;
+.heading:after{
+    content:" ";
+    display: table;
+    clear:both;
+
+}
+.task_input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 50%;
     padding: 10px;
-    background: #FFF8DC;
-    border: 1px solid #6B8E23;
-}
-.add_btn {
-    height: 39px;
-    background: #FFF8DC;
-    color:#57B4C5;
-    border: 2px solid #6b8e23;
-    border-radius:5px;
-    padding; 5px 20px;
-}
-  addBtn:hover {
+    float: left;
+    font-size: 16px;
+  }
+  
+  /* Style in the "Add" button */
+  .add_btn {
+    padding: 10px;
+    width: 25%;
+    background: #d9d9d9;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+  }
+  
+  .add_btn:hover {
     background-color: #bbb;
   }
-  .task_input {
-    border: 2px solid #6b8e23;    
-    width: 75%;
-    padding: 10px;
-    font-size: 16px;
-    height: 15px;
-    color: #57B4C5;
-  }
-  */

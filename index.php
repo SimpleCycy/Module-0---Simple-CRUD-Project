@@ -10,7 +10,7 @@
     </div>
     <br>
         <form method ="POST" action="index.php">
-            <input type ="text" name="task" class="task_input">
+            <input type ="text" name="task" class="task_input"placeholder="Please Input the Task">
             <button type="submit" class ="add_btn"name="_submit"> Add Task</button>
         </form>
 </body>
