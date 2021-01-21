@@ -1,0 +1,38 @@
+.heading{
+        width: 50%
+        margin: 30px auto;
+        text-align: center;
+        color: #F57AC0;
+        background: 2px solid #5DB3AF;
+        border: 2px solid #F57AC0;
+        border-radius: 20px;
+}
+/*
+form{
+    width: 50%
+    margin: 30px auto;
+    border-radius: 5px;
+    padding: 10px;
+    background: #FFF8DC;
+    border: 1px solid #6B8E23;
+}
+.add_btn {
+    height: 39px;
+    background: #FFF8DC;
+    color:#57B4C5;
+    border: 2px solid #6b8e23;
+    border-radius:5px;
+    padding; 5px 20px;
+}
+  addBtn:hover {
+    background-color: #bbb;
+  }
+  .task_input {
+    border: 2px solid #6b8e23;    
+    width: 75%;
+    padding: 10px;
+    font-size: 16px;
+    height: 15px;
+    color: #57B4C5;
+  }
+  */
