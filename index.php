@@ -46,22 +46,22 @@
             <thead>
                 <tr>
                     <th>N</th>
-                    <th>Task</th>
+                    <th>Task          </th>
                     <th>Action</th>
                 </tr>
             </thead>
 
             <tbody>
-                <?php while ($row = mysqli_fetch_array($tasks)){ ?>
+                <?php $i = 1; while ($row = mysqli_fetch_array($tasks)){ ?>
                     <tr>
-                        <td><?php echo $row['id']; ?><td>
+                        <td><?php echo $i; ?><td>
                         <td class="task"><?php echo $row['task']; ?></td>
                         <td class= "delete">
-                            <a href="index.php?del_task=<?php echo $row['id']; ?>">X</a>
+                        <a href="index.php?del_task=<?php echo $row['id']; ?>">X</a>
                         </td>
                     </tr>
 
-                <?php }  ?>
+                <?php $i++; }  ?>
                 </tbody>
                 </center>
         </table>

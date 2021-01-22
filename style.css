@@ -45,23 +45,18 @@ align-content: center;
       width: 50%;
       margin: 30px auto;
       border-collapse:collapse;
-      border: 1px solid black;
+     
   }
   tr{
-      border-bottom: 2px solid black;
+      border-bottom: 1px solid black;
   }
   th{
       font-size: 26px;
       color: red;
-      text-align: left;
-  }
-  td{
-      height: 50px;
-      vertical-align: bottom;
   }
   th,td{
       border:none;
-      height: 50px;
+      height: 30px;
       padding:2px;
   }
   tr:hover{
