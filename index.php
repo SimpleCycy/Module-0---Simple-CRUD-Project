@@ -13,6 +13,12 @@
         header('location: index.php');
         }
     }
+    // deleting task
+    if(isset($_GET['del_task'])){
+        $id = $_GET['del_task'];
+        mysqli_query($db,"DELETE FROM tasks WHERE id=$id");
+        header('location: index.php');
+    }
     $tasks = mysqli_query($db, "SELECT * FROM tasks");
    
 
@@ -51,7 +57,7 @@
                         <td><?php echo $row['id']; ?><td>
                         <td class="task"><?php echo $row['task']; ?></td>
                         <td class= "delete">
-                            <a href="#">X</a>
+                            <a href="index.php?del_task=<?php echo $row['id']; ?>">X</a>
                         </td>
                     </tr>
 
