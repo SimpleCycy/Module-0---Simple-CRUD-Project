@@ -1,3 +1,15 @@
+<?php
+    //connect to the database
+    $db = mysql_connect('localhost','root','','Simple Crud Project');
+
+    if(isset($_POST['submit'])){
+        $task = $_POST['task'];
+
+        mysqli_query($db,"INSERT INTO task (task)VALUES('$task')");
+        header('location: index.php');
+    }
+
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -14,8 +26,7 @@
             <input type ="text" name="task" class ="task_input" placeholder ="Please Input the Task">
             <button type="submit" class ="add_btn"name="_submit"> Add Task</button>
         </form>
-<br><br>
-        <table align = "left">
+        <table align = "center">
             <thead>
                 <tr>
                     <th>N</th>
@@ -26,7 +37,7 @@
             <tbody>
                 <tr>
                     <td>1<td>
-                    <td class="task_input">This is the first task place holder</td>
+                    <td class="task">This is the first task place holder</td>
                     <td class= "delete">
                         <a href="#">X</a>
                     </td>
