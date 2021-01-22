@@ -1,3 +1,6 @@
+body{
+    font-size: 20px;
+}
 .heading{
         padding; 30px 40px;
         background-color: #f44336;
@@ -19,6 +22,7 @@ align-content: center;
     padding: 10px;
     font-size: 16px;
     margin: 10px auto;
+    
   }
 
   /* Style in the "Add" button */
@@ -57,7 +61,7 @@ align-content: center;
   }
   th,td{
       border:none;
-      height: 30px;
+      height: 50px;
       padding:2px;
   }
   tr:hover{
@@ -66,6 +70,10 @@ align-content: center;
   .task{
       text-align: left;
       
+  }
+  form p{
+      color:red;
+      margin: 0px;
   }
   .delete{
       text-align: center;
