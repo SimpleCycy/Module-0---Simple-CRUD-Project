@@ -44,7 +44,7 @@
         <table>
             <thead>
                 <tr>
-                <th>N</th>
+                    <th>Number</th>
                     <th>Task</th>
                     <th>Action</th>
                 </tr>
