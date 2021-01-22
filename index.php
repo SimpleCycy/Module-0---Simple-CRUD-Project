@@ -46,7 +46,7 @@
             <thead>
                 <tr>
                     <th>N</th>
-                    <th>Task          </th>
+                    <th>Task</th>
                     <th>Action</th>
                 </tr>
             </thead>
@@ -60,7 +60,6 @@
                         <a href="index.php?del_task=<?php echo $row['id']; ?>">X</a>
                         </td>
                     </tr>
-
                 <?php $i++; }  ?>
                 </tbody>
                 </center>
