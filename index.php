@@ -21,7 +21,6 @@
     }
     $tasks = mysqli_query($db, "SELECT * FROM tasks");
    
-
 ?>
 <!DOCTYPE html>
 <html>
@@ -50,9 +49,10 @@
                     <th>Action</th>
                 </tr>
             </thead>
-
             <tbody>
-                <?php $i = 1; while ($row = mysqli_fetch_array($tasks)){ ?>
+                <?php
+                $tasks = mysqli_query($db,"SELECT * FROM tasks");
+                $i = 1; while ($row = mysqli_fetch_array($tasks)){ ?>
                     <tr>
                         <td><?php echo $i; ?><td>
                         <td class="task"><?php echo $row['task']; ?></td>
@@ -61,8 +61,8 @@
                         </td>
                     </tr>
                 <?php $i++; }  ?>
-                </tbody>
-                </center>
+            </tbody>
+            </center>
         </table>
 </body>
 </html>
