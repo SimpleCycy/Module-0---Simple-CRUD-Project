@@ -44,20 +44,19 @@
         <table>
             <thead>
                 <tr>
-                    <th>N</th>
+                <th>N</th>
                     <th>Task</th>
                     <th>Action</th>
                 </tr>
             </thead>
             <tbody>
                 <?php
-                $tasks = mysqli_query($db,"SELECT * FROM tasks");
                 $i = 1; while ($row = mysqli_fetch_array($tasks)){ ?>
                     <tr>
-                        <td><?php echo $i; ?><td>
+                        <td><?php echo $i; ?></td>
                         <td class="task"><?php echo $row['task']; ?></td>
-                        <td class= "delete">
-                        <a href="index.php?del_task=<?php echo $row['id']; ?>"> X </a>
+                        <td class="delete">
+                            <a href="index.php?del_task=<?php echo $row['id']; ?>"> X </a>
                         </td>
                     </tr>
                 <?php $i++; }  ?>
